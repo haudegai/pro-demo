@@ -1,0 +1,650 @@
+<!--ftl*********************************-->
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>城区1#学习</strong>
+        <img src="images/pump/taiyang.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/taiyang.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/taiyang.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/gou-green.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/taiyang.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170105093505；<br>
+                地址：大江东康山庄；<br>
+                所在水系：京杭大运河水系；<br>
+                所在片区：拱墅区；所在河道：京杭大运河；<br>
+                管辖单位：拱墅水务公司；建设日期：1993年6月12日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls1">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls2">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls3">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls4">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls5">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls6">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.170742,30.256168" />
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>一鑫针织1#学习</strong>
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170105093615；<br>
+                地址：江干区下沙路九堡镇；<br>
+                所在水系：钱塘江支流水系；<br>
+                所在片区：江干区；所在河道：钱塘江支流；<br>
+                管辖单位：九堡水务集团；建设日期：1982年2月21日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls11">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls21">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls31">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls41">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls51">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls61">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.059712,30.247932" />
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>绿科安学习</strong>
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/on.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/on.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/on.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170105093648；<br>
+                地址：解放东路交叉路口；<br>
+                所在水系：京杭运河支流水系；<br>
+                所在片区：上城区；所在河道：京杭运河支流；<br>
+                管辖单位：上城水务分局；建设日期：2000年5月3日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls12">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls22">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls32">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls42">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls52">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls62">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.20071,30.20256" />
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>新龙家印染3#学习</strong>
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/taiyang.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/taiyang.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170105093717；<br>
+                地址：环城北路120号；<br>
+                所在水系：环城河水系；<br>
+                所在片区：上城区；所在河道：环城河；<br>
+                管辖单位：上城区水务分局；建设日期：2000年5月1日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls13">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls23">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls33">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls43">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls53">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls63">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.103549,30.175588" />
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>汤浦水库学习</strong>
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/suo.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/suo.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/suo.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170105093742；<br>
+                地址：环城北路1000号；<br>
+                所在水系：汤普水库河流水系；<br>
+                所在片区：上城区；所在河道：汤浦水库河流；<br>
+                管辖单位：上城区水务分局；建设日期：1996年1月29日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls14">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls24">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls34">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls44">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls54">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls64">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.123312,30.329948" />
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>金立源学习</strong>
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170212142520；<br>
+                地址：钱江北路150号；<br>
+                所在水系：钱塘江支流水系；<br>
+                所在片区：江干区；所在河道：钱塘江支流；<br>
+                管辖单位：钱江水务公司；建设日期：2011年4月28日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls15">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls25">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls35">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls45">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls55">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls65">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.092877,30.245311" />
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>康亭路学习</strong>
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/gou-red.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/gou-red.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/gou-red.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170217143744；<br>
+                地址：康亭路60号；<br>
+                所在水系：曲江支流；<br>
+                所在片区：杭州城北片区；所在河道：曲江；<br>
+                管辖单位：杭州水务总公司；建设日期：2010年8月1日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls16">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls26">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls36">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls46">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls56">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls66">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=121.164592,30.082036" />
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>中河双向学习</strong>
+        <img src="images/pump/hl.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/hl.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/hl.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170221113827；<br>
+                地址：之江路312号；<br>
+                所在水系：京杭大运河水系；<br>
+                所在片区：运南片；所在河道：京杭大运河支流；<br>
+                管辖单位：杭州水务总公司；建设日期：1900年1月1日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls17">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls27">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls37">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls47">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls57">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls67">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.152587,30.206504" />
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="toggle-1">
+    <a href="#" class="deploy-toggle-1">
+        <strong>岳湖学习</strong>
+        <img src="images/pump/gou-green.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/sxt.png"  class="float-right" width="25" alt="img">
+        <img src="images/pump/baoj.gif" class="float-right" width="25" alt="img">
+        <img src="images/pump/gou-green.png" class="float-right" width="25" alt="img">
+        <img src="images/pump/gou-green.png" class="float-right" width="25" alt="img">
+
+    </a>
+    <div class="toggle-content">
+
+        <div class="tabs">
+            <a href="#" class="tab-but tab-but-1 tab-active">基本信息</a>
+            <a href="#" class="tab-but tab-but-2">实时数据</a>
+            <a href="#" class="tab-but tab-but-3">相关资料</a>
+            <a href="#" class="tab-but tab-but-4">地理位置</a>
+        </div>
+        <div class="clear"></div>
+        <div class="tab-content tab-content-1">
+            <p>
+                <img src="images/pump/hl.png" class="float-left" width="50" alt="img">
+                识别码：PLANT20170221115316；<br>
+                地址：杨公堤20号（原西山路20号）；<br>
+                所在水系：西湖水系；<br>
+                所在片区：西湖区；所在河道：西湖支流；<br>
+                管辖单位：西湖水管集团；建设日期：1980年4月2日；
+            </p>
+        </div>
+        <div class="tab-content tab-content-2">
+            <table cellspacing='0' class="table">
+                <tr>
+                    <td class="table-sub-title">瞬时流量</td>
+                    <td><span class="text-highlight highlight-green cls18">4210</span></td>
+                    <td class="table-sub-title">累计流量</td>
+                    <td><span class="text-highlight highlight-green cls28">158623</span></td>
+                </tr>
+                <tr class='even'>
+                    <td class="table-sub-title">电瓶电压</td>
+                    <td><span class="text-highlight highlight-green cls38">154</span></td>
+                    <td class="table-sub-title">电池电压</td>
+                    <td><span class="text-highlight highlight-green cls48">130</span></td>
+                </tr>
+                <tr>
+                    <td class="table-sub-title">上传次数</td>
+                    <td><span class="text-highlight highlight-green cls58">62</span></td>
+                    <td class="table-sub-title">反向累计</td>
+                    <td><span class="text-highlight highlight-green cls68">84</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab-content tab-content-3">
+            <p>
+                <img src="images/pump/zl.png" class="float-left" width="50" alt="img">
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+                <s style="text-decoration:underline">学习电器柜巡检注意点-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">最大功率使用学习-人民出版社.doc</s><br>
+                <s style="text-decoration:underline">如何清算学习的价值-工业出版社.doc</s><br>
+                <s style="text-decoration:underline">学习如何维护-清华大学出版社.doc</s><br>
+
+                <b>下载阅览请到电脑端...</b>
+            </p>
+        </div>
+        <div class="tab-content tab-content-4">
+            <p>
+                <img width="100%" height="140" src="http://api.map.baidu.com/staticimage/v2?ak=wP746Nxc9dhwGHc68oAQviyW&width=280&height=140&zoom=15
+                                    &scale=2&markers=120.149579,30.252362" />
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<!--ftl*********************************-->

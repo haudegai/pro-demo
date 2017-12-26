@@ -1,0 +1,279 @@
+<!-- 页面写死 -->
+<div class="one-half-responsive">
+    <div class="big-notification red-notification">
+        <h4>故障维修单1#-3月10日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+
+        <p>3月1日设备3#发生漏电现象，3月4日设备5#有漏油现象...</p>
+        <p>2017年3月8日14时 发起人：赵英俊&nbsp&nbsp
+            <strong>
+                <span>起草中</span>
+            <#--<span>待受理</span>-->
+            <#--<span>已受理</span>-->
+            </strong>  <br>损坏率：19%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification red-notification">
+        <h4>故障维修单5#-2月11日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+
+        <p>2月1日设备12#出现卡壳，5月2日设备8#左侧螺丝掉落请技术部核实...</p>
+        <p>2017年2月11日09时 发起人：赵英俊&nbsp&nbsp
+            <strong>
+            <#--<span>起草</span>-->
+                <span>待受理</span>
+            <#--<span>已受理</span>-->
+            </strong>  <br>损坏率：33%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification red-notification">
+        <h4>故障维修单11#-6月22日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+
+        <p>6月21日设备2#严重烧坏，6月21日设备21#轻微烧坏现象，建议维修...</p>
+        <p>2017年6月22日10时 发起人：赵英俊&nbsp&nbsp
+            <strong>
+            <#--<span>起草</span>-->
+            <#--<span>待受理</span>-->
+                <span>已受理</span>
+            </strong>  <br>损坏率：26%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification red-notification">
+        <h4>故障维修单9#-3月10日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+
+        <p>3月1日设备3#发生漏电现象，3月4日设备5#有漏油现象...</p>
+        <p>2017年3月10日16时 发起人：赵英俊&nbsp&nbsp
+            <strong>
+            <#--<span>起草</span>-->
+            <#--<span>待受理</span>-->
+                <span>已受理</span>
+            </strong>  <br>损坏率：30%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification red-notification">
+        <h4>故障维修单1#-3月10日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+
+        <p>3月1日设备3#发生漏电现象，3月4日设备5#有漏油现象...</p>
+        <p>2017年3月10日17时 发起人：赵英俊&nbsp&nbsp
+            <strong>
+            <#--<span>起草</span>-->
+            <#--<span>待受理</span>-->
+                <span>已受理</span>
+            </strong>  <br>损坏率：20%
+        </p>
+    </div>
+</div>
+
+
+<!-- 页面写死 #################################-->
+
+
+<div class="one-half-responsive">
+    <div class="big-notification yellow-notification">
+        <h4>故障维修单2#-3月16日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>城区学习3#泵电压过高烧坏，申请维修</p>
+        <p>2017年3月10日17时 <br>发起人：赵英俊 <br>受理人：赵颖
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification yellow-notification">
+        <h4>故障维修单7#-1月23日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>九堡学习1#泵电机柜破损严重，申请维修或者跟换</p>
+        <p>2017年1月23日17时 <br>发起人：陆云霞 <br>受理人：赵颖
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+
+<div class="one-half-responsive">
+    <div class="big-notification yellow-notification">
+        <h4>故障维修单15#-3月17日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>城区学习14#泵工人使用不当出现倒转现象..</p>
+        <p>2017年3月10日17时 <br>发起人：胡新峰 <br>受理人：赵颖
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification yellow-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+<!-- 页面写死 #################################-->
+
+
+<!-- 页面写死 #################################-->
+<div class="one-half-responsive">
+    <div class="big-notification blue-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖 <br> 维修负责人：蒋世海
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+<div class="one-half-responsive">
+    <div class="big-notification blue-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖 <br> 维修负责人：蒋世海
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+
+<div class="one-half-responsive">
+    <div class="big-notification blue-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖 <br> 维修负责人：蒋世海
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维修中</span>
+            </strong> <br>损坏率：45%
+        </p>
+    </div>
+</div>
+
+<!-- 页面写死 #################################-->
+
+<div class="one-half-responsive">
+    <div class="big-notification green-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖 <br> 维修负责人：蒋世海
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维保完成</span>
+            </strong> <br>损坏率：34%
+        </p>
+    </div>
+</div>
+
+
+<div class="one-half-responsive">
+    <div class="big-notification green-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖 <br> 维修负责人：蒋世海
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维保完成</span>
+            </strong> <br>损坏率：24%
+        </p>
+    </div>
+</div>
+
+
+<div class="one-half-responsive">
+    <div class="big-notification green-notification">
+        <h4>故障维修单17#-2月28日
+            <div style="float: right;font-size: 3px">
+                <a href="${context.contextPath}/maintenanceDetail/ticketCode" style="color:#eeeeee">[查看详情?]</a>
+            </div>
+        </h4>
+        <p>下沙3学习2#配电箱门损坏，并且没有存货，需要维修或者采购</p>
+        <p>2017年3月10日17时 <br>发起人：卢鹏 <br>受理人：赵颖 <br> 维修负责人：蒋世海
+            <strong>
+            <#--<span>已指派</span>-->
+                <span><br>维保完成</span>
+            </strong> <br>损坏率：15%
+        </p>
+    </div>
+</div>

@@ -1,0 +1,318 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : 本地
+Source Server Version : 50624
+Source Host           : localhost:3306
+Source Database       : xiuyuan
+
+Target Server Type    : MYSQL
+Target Server Version : 50624
+File Encoding         : 65001
+
+Date: 2017-04-17 09:16:30
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for pump_trouble_device
+-- ----------------------------
+DROP TABLE IF EXISTS `pump_trouble_device`;
+CREATE TABLE `pump_trouble_device` (
+  `station_code` varchar(50) NOT NULL COMMENT '学习编码',
+  `device_id` varchar(50) NOT NULL COMMENT '设备id',
+  `ticket_code` varchar(50) NOT NULL COMMENT '故障编码',
+  `trouble_describe` varchar(2000) DEFAULT NULL COMMENT '故障描述',
+  `status` tinyint(4) DEFAULT '0' COMMENT '任务设备维修状态：0未维修，1已维修'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='故障设备关系（设备视图）';
+
+-- ----------------------------
+-- Records of pump_trouble_device
+-- ----------------------------
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195218', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195218', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195218', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152451', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152451', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152016', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152016', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152016', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152016', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152016', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195001', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195001', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195001', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170306195001', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152002', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152002', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152002', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152002', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152002', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152002', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195003', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195003', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195003', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170306195003', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195003', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152004', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152004', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152004', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152004', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152004', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195005', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195005', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152006', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152006', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152006', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195007', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195007', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195007', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152008', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152008', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195009', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195009', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195009', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152010', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152010', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152010', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152010', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195011', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170306195011', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195011', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152012', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152012', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152012', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170306195013', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195013', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195013', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195013', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195013', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152012', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195013', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152014', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152014', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152014', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152014', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152014', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195015', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195015', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195015', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152016', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152016', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195218', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170306195218', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170306195218', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170306195218', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195218', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170306195218', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152451', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152451', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152451', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152451', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152452', '屏幕上面出现黑方块,重启恢复正常', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152452', '找不到CDMA模块', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152452', '始终找不到服务器', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152452', '表明油脂太厚，影响操作', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152452', '缺失个别零件，不影响使用，但是有隐患', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152452', '操作太卡，缺少就了稍等交给你符文呢u问答是看得见大地飞歌卡密覆盖面孤儿们金额可', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093505', 'ELECNET20170124162348', 'TROUBLE20170308152452', '有漏电现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170215154204', 'TROUBLE20170308152452', '有漏油现象', '0');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170217143744', 'DEVICE20170108201641', 'TROUBLE20170308152452', '没有打扫，太脏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('PLANT20170105093717', 'PUMP20170105094102', 'TROUBLE20170308152452', '电机柜门损坏', '1');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', 'aaa', 'TROUBLE20170308152452', 'aaa', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '111', 'TROUBLE20170308152452', '1111', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '1645', 'TROUBLE20170308152452', '4米饿了', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '1处', 'TROUBLE20170308152452', '话就', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '14444', 'TROUBLE20170308152452', '11111111', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', 'adasdasdas', 'TROUBLE20170308152452', 'asdasdasdasdasd', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '12', 'TROUBLE20170308152452', '12', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '11', 'TROUBLE20170308152452', '？11', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '44', 'TROUBLE20170308152452', '44', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '96', 'TROUBLE20170308152452', '96', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '12', 'TROUBLE20170308152452', '12', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '12', 'TROUBLE20170308152452', '12', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '11', 'TROUBLE20170308152452', '111', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '11', 'TROUBLE20170308152452', '11', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', 'asdad', 'TROUBLE20170308152452', 'adasdasd', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', 'asd', 'TROUBLE20170308152452', 'adasd', '0');
+INSERT INTO `pump_trouble_device` VALUES ('defaultStation', '112', 'TROUBLE20170308152452', 'adasdas', '0');
+
+-- ----------------------------
+-- Table structure for pump_trouble_ticket
+-- ----------------------------
+DROP TABLE IF EXISTS `pump_trouble_ticket`;
+CREATE TABLE `pump_trouble_ticket` (
+  `id` bigint(19) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `ticket_code` varchar(50) NOT NULL DEFAULT '' COMMENT '故障单识别码',
+  `ticket_name` varchar(100) NOT NULL DEFAULT '' COMMENT '故障单名称',
+  `plant_code` varchar(50) DEFAULT NULL COMMENT '学习识别码',
+  `trouble_code` varchar(50) DEFAULT NULL COMMENT '故障识别码',
+  `pump_code` varchar(50) DEFAULT NULL COMMENT '泵识别码',
+  `device_code` varchar(50) DEFAULT NULL COMMENT '设备识别码',
+  `trouble_describe` varchar(2000) DEFAULT NULL COMMENT '故障描述',
+  `submit_people` varchar(100) DEFAULT NULL COMMENT '提交人',
+  `submit_time` varchar(100) DEFAULT NULL COMMENT '提交时间',
+  `submit_type` int(11) NOT NULL DEFAULT '0' COMMENT '提交类型:0手动提交，1自动提交',
+  `create_date` datetime NOT NULL COMMENT '创建时间',
+  `uuid` varchar(50) NOT NULL COMMENT 'uuid',
+  `organization_id` int(11) DEFAULT NULL COMMENT '运维单位Id',
+  `flow_index` tinyint(4) DEFAULT '0' COMMENT '流程索引：0起草，1待受理，2已受理，3已指派，4维修中，5已维修，6结束',
+  `organization_client_id` int(11) DEFAULT NULL COMMENT '故障申请单位Id',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COMMENT='故障单';
+
+-- ----------------------------
+-- Records of pump_trouble_ticket
+-- ----------------------------
+INSERT INTO `pump_trouble_ticket` VALUES ('1', 'TROUBLE20170306195001', '故障维修单17#-2月28日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '1', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('2', 'TROUBLE20170308152002', '故障维修单17#-2月28日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('3', 'TROUBLE20170306195003', '故障维修单7#-1月23日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '1', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('4', 'TROUBLE20170308152004', '故障维修单2#-3月16日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '6', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('5', 'TROUBLE20170306195005', '故障维修单9#-3月10日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '5', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('6', 'TROUBLE20170308152006', '故障维修单11#-6月22日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '5', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('7', 'TROUBLE20170306195007', '故障维修单5#-2月11日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('8', 'TROUBLE20170308152008', '故障维修单1#-3月10日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('9', 'TROUBLE20170306195009', '故障维修单3#-2月11日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('10', 'TROUBLE20170308152010', '故障维修单3#-5月21日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '2', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('11', 'TROUBLE20170306195011', '故障维修单3#-3月14日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('12', 'TROUBLE20170308152012', '故障维修单3#-4月06日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '5', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('13', 'TROUBLE20170306195013', '故障维修单3#-5月03日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('14', 'TROUBLE20170308152014', '故障维修单3#-6月15日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '5', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('15', 'TROUBLE20170306195015', '故障维修单3#-7月20日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('16', 'TROUBLE20170308152016', '故障维修单3#-8月11日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '6', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('17', 'TROUBLE20170306195218', '故障维修单3#-9月29日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-08 00:00:00', '0', '2017-03-06 19:53:06', 'b9aa3de6-1070-4480-83f7-7e4d4091a527', '1', '5', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('18', 'TROUBLE20170308152451', '故障维修单3#-10月02日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '4', '3');
+INSERT INTO `pump_trouble_ticket` VALUES ('19', 'TROUBLE20170308152452', '故障维修单0#-1月02日', null, null, null, null, '故障描述', 'xiuyuan', '2017-03-09 00:00:00', '0', '2017-03-08 15:25:33', '73ac8196-f42f-4387-9413-2c1828437452', '6', '0', '3');
+
+
+
+
+
+
+
+
+
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : 本地
+Source Server Version : 50624
+Source Host           : localhost:3306
+Source Database       : xiuyuan
+
+Target Server Type    : MYSQL
+Target Server Version : 50624
+File Encoding         : 65001
+
+Date: 2017-04-17 09:18:15
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for pump_inspection_content
+-- ----------------------------
+DROP TABLE IF EXISTS `pump_inspection_content`;
+CREATE TABLE `pump_inspection_content` (
+  `id` bigint(19) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `task_code` varchar(50) DEFAULT NULL COMMENT '巡检任务Code',
+  `code` varchar(50) NOT NULL DEFAULT '' COMMENT '识别码',
+  `device_code` varchar(50) DEFAULT NULL COMMENT '设备识别码',
+  `device_name` varchar(100) DEFAULT NULL COMMENT '设备名称',
+  `device_model` varchar(100) DEFAULT NULL COMMENT '设备规格',
+  `device_status` int(11) NOT NULL DEFAULT '0' COMMENT '设备状态:0完好，1其他',
+  `installation_place` varchar(100) DEFAULT NULL COMMENT '安装地点',
+  `use_departments` varchar(100) DEFAULT NULL COMMENT '使用部门',
+  `device_barcode` varchar(100) DEFAULT NULL COMMENT '设备条码',
+  `create_date` datetime NOT NULL COMMENT '创建时间',
+  `uuid` varchar(50) NOT NULL COMMENT 'uuid',
+  `organization_id` int(11) DEFAULT NULL COMMENT '部门id',
+  `inspection_result` varchar(500) DEFAULT NULL COMMENT '该设备巡检结果',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8 COMMENT='巡检内容';
+
+-- ----------------------------
+-- Records of pump_inspection_content
+-- ----------------------------
+INSERT INTO `pump_inspection_content` VALUES ('28', 'INSPECTTASK20170106160940', 'INSPECTCON20170221135603', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('29', 'INSPECTTASK20170106160940', 'INSPECTCON20170221135604', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('30', 'INSPECTTASK20170106160940', 'INSPECTCON20170221135705', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('31', 'INSPECTTASK20170106160924', 'INSPECTCON20170221135906', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '1', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', '巡检结果：该设备的数据显示有毛病');
+INSERT INTO `pump_inspection_content` VALUES ('32', 'INSPECTTASK20170315135739', 'INSPECTCON20170221134907', 'DEVICE20170221134919', 'AI模块', 'EM231 CN', '0', null, null, null, '2017-02-21 13:49:44', '037a9b6c-2df7-4f74-9f9a-34e66bf2163a', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('33', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135008', 'DEVICE20170221135005', '输送机', '', '0', null, null, null, '2017-02-21 13:50:59', '3e818871-06f2-4839-998d-b65c5e9e2cd4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('34', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135309', 'DEVICE20170221135148', '在线水质仪表', '哈希COD203', '0', null, null, null, '2017-02-21 13:53:05', 'd432c0d8-bea2-4553-b9c7-c22a328410b8', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('35', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135610', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('36', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135611', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('37', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135712', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('38', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135913', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '0', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('39', 'INSPECTTASK20170106160924', 'INSPECTCON20170221134914', 'DEVICE20170221134919', 'AI模块', 'EM231 CN', '1', null, null, null, '2017-02-21 13:49:44', '037a9b6c-2df7-4f74-9f9a-34e66bf2163a', '7', '巡检结果：该设备有漏电现象');
+INSERT INTO `pump_inspection_content` VALUES ('40', 'INSPECTTASK20170106160940', 'INSPECTCON20170221135015', 'DEVICE20170221135005', '输送机', '', '0', null, null, null, '2017-02-21 13:50:59', '3e818871-06f2-4839-998d-b65c5e9e2cd4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('41', 'INSPECTTASK20170106160924', 'INSPECTCON20170221135316', 'DEVICE20170221135148', '在线水质仪表', '哈希COD203', '1', null, null, null, '2017-02-21 13:53:05', 'd432c0d8-bea2-4553-b9c7-c22a328410b8', '7', '设备年久老化现象严重');
+INSERT INTO `pump_inspection_content` VALUES ('42', 'INSPECTTASK20170106160940', 'INSPECTCON20170221135617', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('43', 'INSPECTTASK20170106160924', 'INSPECTCON20170221135618', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('44', 'INSPECTTASK20170106160924', 'INSPECTCON20170221135719', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('45', 'INSPECTTASK20170106160924', 'INSPECTCON20170221135920', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '0', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('46', 'INSPECTTASK20170315135739', 'INSPECTCON20170221134921', 'DEVICE20170221134919', 'AI模块', 'EM231 CN', '0', null, null, null, '2017-02-21 13:49:44', '037a9b6c-2df7-4f74-9f9a-34e66bf2163a', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('47', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135022', 'DEVICE20170221135005', '输送机', '', '0', null, null, null, '2017-02-21 13:50:59', '3e818871-06f2-4839-998d-b65c5e9e2cd4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('48', 'INSPECTTASK20170315135739', 'INSPECTCON20170221135323', 'DEVICE20170221135148', '在线水质仪表', '哈希COD203', '0', null, null, null, '2017-02-21 13:53:05', 'd432c0d8-bea2-4553-b9c7-c22a328410b8', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('49', 'INSPECTTASK20170315135740', 'INSPECTCON20170221135624', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('50', 'INSPECTTASK20170315135740', 'INSPECTCON20170221135625', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('51', 'INSPECTTASK20170315135740', 'INSPECTCON20170221135726', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('52', 'INSPECTTASK20170315135740', 'INSPECTCON20170221135927', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '0', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('53', 'INSPECTTASK20170315135741', 'INSPECTCON20170221134928', 'DEVICE20170221134919', 'AI模块', 'EM231 CN', '0', null, null, null, '2017-02-21 13:49:44', '037a9b6c-2df7-4f74-9f9a-34e66bf2163a', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('54', 'INSPECTTASK20170315135741', 'INSPECTCON20170221135029', 'DEVICE20170221135005', '输送机', '', '0', null, null, null, '2017-02-21 13:50:59', '3e818871-06f2-4839-998d-b65c5e9e2cd4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('55', 'INSPECTTASK20170315135741', 'INSPECTCON20170221135330', 'DEVICE20170221135148', '在线水质仪表', '哈希COD203', '0', null, null, null, '2017-02-21 13:53:05', 'd432c0d8-bea2-4553-b9c7-c22a328410b8', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('56', 'INSPECTTASK20170315135741', 'INSPECTCON20170221135631', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('57', 'INSPECTTASK20170315135742', 'INSPECTCON20170221135632', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('58', 'INSPECTTASK20170315135742', 'INSPECTCON20170221135733', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('59', 'INSPECTTASK20170315135742', 'INSPECTCON20170221135934', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '0', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('60', 'INSPECTTASK20170315135743', 'INSPECTCON20170221134935', 'DEVICE20170221134919', 'AI模块', 'EM231 CN', '0', null, null, null, '2017-02-21 13:49:44', '037a9b6c-2df7-4f74-9f9a-34e66bf2163a', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('61', 'INSPECTTASK20170315135743', 'INSPECTCON20170221135059', 'DEVICE20170221135005', '输送机', '', '0', null, null, null, '2017-02-21 13:50:59', '3e818871-06f2-4839-998d-b65c5e9e2cd4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('62', 'INSPECTTASK20170315135744', 'INSPECTCON20170221135305', 'DEVICE20170221135148', '在线水质仪表', '哈希COD203', '0', null, null, null, '2017-02-21 13:53:05', 'd432c0d8-bea2-4553-b9c7-c22a328410b8', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('63', 'INSPECTTASK20170315135744', 'INSPECTCON20170221135603', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('64', 'INSPECTTASK20170315135745', 'INSPECTCON20170221135656', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('65', 'INSPECTTASK20170315135745', 'INSPECTCON20170221135743', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('66', 'INSPECTTASK20170315135745', 'INSPECTCON20170221135918', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '0', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('67', 'INSPECTTASK20170315135746', 'INSPECTCON20170221134944', 'DEVICE20170221134919', 'AI模块', 'EM231 CN', '0', null, null, null, '2017-02-21 13:49:44', '037a9b6c-2df7-4f74-9f9a-34e66bf2163a', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('68', 'INSPECTTASK20170315135746', 'INSPECTCON20170221135059', 'DEVICE20170221135005', '输送机', '', '0', null, null, null, '2017-02-21 13:50:59', '3e818871-06f2-4839-998d-b65c5e9e2cd4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('69', 'INSPECTTASK20170315135746', 'INSPECTCON20170221135305', 'DEVICE20170221135148', '在线水质仪表', '哈希COD203', '0', null, null, null, '2017-02-21 13:53:05', 'd432c0d8-bea2-4553-b9c7-c22a328410b8', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('70', 'INSPECTTASK20170315135746', 'INSPECTCON20170221135603', 'DEVICE20170221135317', '电磁阀', 'EV210B', '0', null, null, null, '2017-02-21 13:56:03', 'b4ea62a0-a5ac-4c54-8343-e847d8ce7e54', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('71', 'INSPECTTASK20170315135746', 'INSPECTCON20170221135656', 'DEVICE20170221135631', '红外一体化球机', 'V1910IR-18', '0', null, null, null, '2017-02-21 13:56:56', '719003d6-714a-4471-ace9-ff4682b8ecc4', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('72', 'INSPECTTASK20170315135746', 'INSPECTCON20170221135743', 'DEVICE20170221135711', '红外一体化枪机', 'V5112IR-A7115P', '0', null, null, null, '2017-02-21 13:57:43', '399628a3-68c3-4367-bfa5-a69e2b0876b0', '7', null);
+INSERT INTO `pump_inspection_content` VALUES ('73', 'INSPECTTASK20170315135746', 'INSPECTCON20170221135918', 'DEVICE20170221135835', '视频三合一防雷器', 'TV3-24', '0', null, null, null, '2017-02-21 13:59:18', '9d4486ff-24dc-436c-8db7-70f4b5e1e61e', '7', null);
+
+-- ----------------------------
+-- Table structure for pump_inspection_task
+-- ----------------------------
+DROP TABLE IF EXISTS `pump_inspection_task`;
+CREATE TABLE `pump_inspection_task` (
+  `id` bigint(19) NOT NULL AUTO_INCREMENT COMMENT '序号',
+  `code` varchar(50) NOT NULL DEFAULT '' COMMENT '识别码',
+  `plan_code` varchar(50) DEFAULT NULL COMMENT '巡检计划识别码',
+  `start_date` date DEFAULT NULL COMMENT '开始日期',
+  `end_date` date DEFAULT NULL COMMENT '结束日期',
+  `start_time` time DEFAULT NULL COMMENT '开始时间',
+  `end_time` time DEFAULT NULL COMMENT '结束时间',
+  `plan_consumption_time` int(11) DEFAULT NULL COMMENT '预计消耗时间',
+  `more_than_time` int(11) DEFAULT NULL COMMENT '可逾时时间',
+  `inspection_status` int(11) NOT NULL DEFAULT '0' COMMENT '巡检状态:0未巡检，1巡检中，2已巡检',
+  `create_people` varchar(100) DEFAULT NULL COMMENT '创建人',
+  `create_date` datetime NOT NULL COMMENT '创建时间',
+  `uuid` varchar(50) NOT NULL COMMENT 'uuid',
+  `organization_id` int(11) DEFAULT NULL COMMENT '部门id',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COMMENT='巡检任务';
+
+-- ----------------------------
+-- Records of pump_inspection_task
+-- ----------------------------
+INSERT INTO `pump_inspection_task` VALUES ('1', 'INSPECTTASK20170106160924', 'INSPECTPLAN20170315110242', '2017-03-02', '2017-03-02', '08:00:00', '09:00:00', null, null, '0', '', '2017-01-06 16:09:27', 'cb06e106-849a-4514-8df4-253fbeaa7861', '3');
+INSERT INTO `pump_inspection_task` VALUES ('2', 'INSPECTTASK20170315135739', 'INSPECTPLAN20170106161753', '2017-03-01', '2017-03-08', '08:00:00', '10:00:00', null, null, '0', 'xiuyuan', '2017-03-15 13:57:59', 'c539a904-d42c-49f7-9cdb-3c79876f3700', '7');
+INSERT INTO `pump_inspection_task` VALUES ('3', 'INSPECTTASK20170106160940', 'INSPECTPLAN20170315110242', '2017-03-02', '2017-03-02', '08:00:00', '09:00:00', null, null, '1', '', '2017-01-06 16:09:27', 'cb06e106-849a-4514-8df4-253fbeaa7861', '3');
+INSERT INTO `pump_inspection_task` VALUES ('4', 'INSPECTTASK20170315135741', 'INSPECTPLAN20170106161753', '2017-03-01', '2017-03-08', '08:00:00', '10:00:00', null, null, '1', 'xiuyuan', '2017-03-15 13:57:59', 'c539a904-d42c-49f7-9cdb-3c79876f3700', '7');
+INSERT INTO `pump_inspection_task` VALUES ('5', 'INSPECTTASK20170106160942', 'INSPECTPLAN20170315110242', '2017-03-02', '2017-03-02', '08:00:00', '09:00:00', null, null, '1', '', '2017-01-06 16:09:27', 'cb06e106-849a-4514-8df4-253fbeaa7861', '3');
+INSERT INTO `pump_inspection_task` VALUES ('6', 'INSPECTTASK20170315135743', 'INSPECTPLAN20170106161753', '2017-03-01', '2017-03-08', '08:00:00', '10:00:00', null, null, '2', 'xiuyuan', '2017-03-15 13:57:59', 'c539a904-d42c-49f7-9cdb-3c79876f3700', '7');
+INSERT INTO `pump_inspection_task` VALUES ('7', 'INSPECTTASK20170106160944', 'INSPECTPLAN20170315110242', '2017-03-02', '2017-03-02', '08:00:00', '09:00:00', null, null, '2', '', '2017-01-06 16:09:27', 'cb06e106-849a-4514-8df4-253fbeaa7861', '3');
+INSERT INTO `pump_inspection_task` VALUES ('8', 'INSPECTTASK20170106160945', 'INSPECTPLAN20170315110242', '2017-03-02', '2017-03-02', '08:00:00', '09:00:00', null, null, '2', '', '2017-01-06 16:09:27', 'cb06e106-849a-4514-8df4-253fbeaa7861', '3');
+INSERT INTO `pump_inspection_task` VALUES ('9', 'INSPECTTASK20170315135746', 'INSPECTPLAN20170106161753', '2017-03-01', '2017-03-08', '08:00:00', '10:00:00', null, null, '2', 'xiuyuan', '2017-03-15 13:57:59', 'c539a904-d42c-49f7-9cdb-3c79876f3700', '7');
